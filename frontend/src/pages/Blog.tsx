@@ -12,14 +12,13 @@ export default function Blog() {
     id: id || ""
   });  
 
-  if(loading){
+  if(loading || !blog ){
     return(
       <div>
       <AppBar/>
           <div className="flex justify-center p-4">
               <div>
               <BlogSkeleton/>
-             
               </div>
           </div>
       </div>
