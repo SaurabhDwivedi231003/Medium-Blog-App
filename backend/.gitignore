@@ -1,6 +1,12 @@
 # prod
 dist/
 
+# wrangler
+wrangler.toml
+tsconfig.json
+node_modules
+.gitignore
+
 # dev
 .yarn/
 !.yarn/releases
